@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    margin: auto;
+}
+.children{
+    position: absolute;
+    margin: auto;
+}
+.child1{
+    border: 2px solid red;
+    width: 600px;
+    height: 600px;
+    top: 70px;
+    left: 550px;
+    border-radius: 50%;
+    background-color: red;
+}
+.child2{
+    border: 2px solid blue;
+    width: 550px;
+    height: 550px;
+    top: 95px;
+    left: 575px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.child3{
+    border: 2px solid green;
+    width: 500px;
+    height: 500px;
+    top: 120px;
+    left: 600px;
+    border-radius: 50%;
+    background-color: green;
+}
+.child4{
+    border: 2px solid yellow;
+    width: 450px;
+    height: 450px;
+    top: 150px;
+    left: 625px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.child5{
+    border: 2px solid orange;
+    width: 400px;
+    height: 400px;
+    top: 175px;
+    left: 650px;
+    border-radius: 50%;
+    background-color: orange;
+}
+.child6{
+    border: 2px solid purple;
+    width: 350px;
+    height: 350px;
+    top: 200px;
+    left: 675px;
+    border-radius: 50%;
+    background-color: purple;
+}
+.child7{
+    border: 2px solid purple;
+    width: 300px;
+    height: 300px;
+    top: 225px;
+    left: 700px;
+    border-radius: 50%;
+    background-color: rgb(173, 126, 201);
+}
+/* .child8{
+    border: 2px solid purple;
+    width: 250px;
+    height: 250px;
+    top: 250px;
+    left: 725px;
+    border-radius: 50%;
+    background-color: rgb(173, 126, 201);  
+} */

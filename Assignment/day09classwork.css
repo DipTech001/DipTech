@@ -1,0 +1,268 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #FFFFFF;
+  border-radius: 40px;
+  padding: 10px 20px;
+  margin: auto;
+  text-align: center;
+
+}
+
+body {
+  background-color: #F0F3FF;
+  font-family: Arial, sans-serif;
+  align-items: center;
+
+}
+
+/* body{
+  background-color: #F0F3FF;
+  font-family: Arial, sans-serif;
+} */
+
+
+section {
+  /* display: flex; */
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  text-align: center;
+  margin: auto;
+}
+
+.left-side ul {
+  display: flex;
+  gap: 2em;
+  list-style: none;
+}
+
+.left-side a {
+  text-decoration: none;
+  font-style: Poppins, Roboto, Helvetica, Arial, sans-serif;
+  color: #535768;
+  line-height: 16.1px;
+  size: 1400px;
+  font-weight: 300;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.right-side {
+  margin: auto;
+  align-content: center;
+  font-style: Poppins, Roboto, Helvetica, Arial, sans-serif;
+  color: #535768;
+  line-height: 16.1px;
+  size: 1400px;
+  font-weight: 300;
+}
+
+.right-side ul {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  list-style: none;
+  font-style: Poppins, Roboto, Helvetica, Arial, sans-serif;
+  color: #535768;
+  line-height: 16.1px;
+  size: 1400px;
+  font-weight: 300;
+}
+
+.right-side li {
+  display: flex;
+  align-items: center;
+  font-style: Poppins, Roboto, Helvetica, Arial, sans-serif;
+  color: #535768;
+  line-height: 16.1px;
+  size: 1400px;
+  font-weight: 300;
+}
+
+.right-side a {
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  font-style: Poppins, Roboto, Helvetica, Arial, sans-serif;
+  color: #535768;
+  line-height: 16.1px;
+  size: 1400px;
+  font-weight: 300;
+  align-items: center;
+}
+
+.gh {
+  background-color: transparent;
+  color: #6161FF;
+  padding: 10px 16px;
+  border-radius: 250px;
+  border: 2px solid #6161FF;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+  font-style: Poppins, Roboto, Helvetica, Arial, sans-serif;
+  line-height: 16.1px;
+  size: 1400px;
+  font-weight: 300;
+}
+
+.hg {
+  background-color: #5151D5;
+  color: white;
+  padding: 10px 16px;
+  border: 2px solid blueviolet;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+  font-style: Poppins, Roboto, Helvetica, Arial, sans-serif;
+  line-height: 16.1px;
+  size: 1400px;
+  font-weight: 300;
+}
+
+.main-div {
+  display: flex;
+  margin-top: 50px;
+  /* justify-content: space-around; */
+  gap: 1em;
+  align-items: center;
+
+}
+
+h1 {
+  height: 57.59;
+  width: 506.03;
+  font: 48px Poppins;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 5em;
+  size: 56px;
+  line-height: 67.2px;
+  color: #333333;
+}
+
+.div1 {
+  height: 555.64px;
+  width: 415.33px;
+  padding: 20px 20px;
+  background-color: #97AEFF;
+  border-radius: 20px;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+.logo0 {
+  margin-top: 40px;
+  width: 250px;
+  padding: 30px;
+}
+
+.div1 p {
+  font-size: 20px;
+  margin-bottom: 200px;
+  padding-bottom: 30px;
+  color: #333333;
+}
+
+.div1 a {
+  text-decoration: none;
+  text-align: center;
+  size: 16px;
+  line-height: 20.8px;
+  color: #000000;
+}
+
+.div2 {
+  height: 555.64px;
+  width: 415.33px;
+  padding: 20px 20px;
+  background-color: #FFCC00;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.div2 p {
+  margin-bottom: 110px;
+  color: #333333;
+}
+
+.logo1 {
+  margin-top: 40px;
+  width: 100px;
+}
+
+.div2 p {
+  margin-top: 40px;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.logo2 {
+  width: 50px;
+}
+
+.div3 {
+  height: 555.64px;
+  width: 415.33px;
+  padding: 20px 20px;
+  background-color: #00CA72;
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+.logo002 {
+  margin-top: 40px;
+  width: 250px;
+  padding: 30px;
+}
+
+/* .div3 span{
+  margin-bottom: 80px;
+  color: #FFCC00;
+}
+.div3 a{
+  margin-top: 40px;
+    font-size: 20px;
+}
+.div1 h3{
+    margin-top: 40px;
+    font-size: 50px; */
+
+.div3 p {
+  font-size: 20px;
+  margin-bottom: 200px;
+  color: #333333;
+  padding-bottom: 40px;
+}
+
+.div3 a {
+  text-decoration: none;
+  text-align: center;
+}
