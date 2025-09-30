@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #7647EE;
+    padding: 25px;
+}
+
+.menu-list {
+    display: flex;
+    gap: 2em;
+    padding: 20px;
+    visibility: visible;
+    position: relative;
+    left: 120px;
+    bottom: 10px;
+}
+
+.menu-list li a {
+    color: white;
+    font-size: 15px;
+    margin: auto;
+}
+
+.fa-chevron-down {
+    color: #C9B7F8;
+    font-size: 10px;
+}
+
+.left-div {
+    display: flex;
+    padding: 20px;
+    gap: 2em;
+    visibility: visible;
+    position: relative;
+    left: 230px;
+}
+
+.fa-bars {
+    color: white;
+    visibility: hidden;
+}
+
+.left-div-menu li a {
+    color: white;
+    font-size: 15px;
+}
+
+.left-div-menu2 li a {
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+@media (max-width:1605) {
+    .container {
+        display: flex;
+        background-color: #7647EE;
+        padding: 10px;
+    }
+}
+
+@media (max-width:1023px) {
+    .container {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .menu-list {
+        visibility: hidden;
+    }
+
+    .left-div {
+        visibility: hidden;
+    }
+
+    .img {
+        padding: 20px;
+    }
+
+    .fa-bars {
+        visibility: visible;
+        margin: auto;
+        font-size: 1.2em;
+    }
+}
+
+@media(max-width:803px) {
+    .container {
+        justify-content: space-between;
+    }
+
+    .fa-bars {}
+}
+
+.herosect {
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: #7647EE;
+    padding: 140px;
+}
+
+.hero-section {
+    border: 2px solid green;
+    padding-top: 100px;
+    color: aliceblue;
+    width: 70%;
+}
+
+.hero-section h1 {
+    font-weight: 2000px;
+    width: 60%;
+    font-size: 60px;
+}
+
+.hero-section span {
+    color: #F7AD3C;
+}
+
+.hero-section h4 {
+    width: 60%;
+    padding-top: 15px;
+    font-size: 14px;
+}
+.hero-section ul{
+    padding-top: 20px;
+}
+.Start {
+    border: 1px solid black;
+    color: #47BE79;
+    font-size: 18px;
+    padding: 12px;
+    background-color: white;
+    width: 18%;
+    border-radius: 10px;
+}
+
+.video{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}

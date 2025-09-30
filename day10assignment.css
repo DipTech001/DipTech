@@ -103,3 +103,42 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+@media(max-width:1629px){
+    .blade {
+    top: 40px;
+    left: 155px;
+    margin: auto;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.stand1 {
+    top: 360px;
+    left: 790px;
+}
+
+.stand2 {
+    top: 480px;
+    left: 780px;
+
+}
+.card {
+    bottom: 170px;
+    left: 740px;
+}
+
+.onbtn {
+    bottom: 200px;
+    left: 780px;
+}
+}
